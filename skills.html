@@ -4,22 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="skills.css">
 </head>
+<nav>
+    <div>
+        <button class="nav_buttons"><a href="about_me.html">About Me</a></button>
+    </div>
+    <div>
+        <button class="nav_buttons"><a href="home.html">Home</a></button>
+    </div>
+    <div>
+        <button class="nav_buttons"><a href="projects.html">Projects</a></button>
+    </div>
+</nav>
 <body>
     <h1>Devin Rider, Skills</h1>
-    <br>
     <h2>Programming Languages:</h2>
-    <h4>Python</h4>
-    <label for="python"></label>
-    <progress id="python" value="80" max="100">80%</progress>
-    <p>A confident foundation in building data structures, accessing API's, and building with Flask applications </p>
-    <h4>SQL</h4>
-    <label for="sql"></label>
-    <progress id="sql" value="100" max="100">100</progress>
-    <p>A strong foundation in accessing targeted information, exectuing queries, and crafting schemas.</p>
-    <h4>HTMl &amp; CSS</h4>
-    <label for="markdown"></label>
-    <progress id="markdown" value="100" max="100"></progress>
-    <p>A strong foundation in creating and maintaining web development and features. Creating a stylish design attractive to users.</p>
+    <div class="container">
+        <div class="python">
+            <h4>Python</h4>
+            <label for="python"></label>
+            <progress id="python" value="80" max="100">80%</progress>
+            <p>A confident foundation in building data structures, accessing API's, and building with Flask applications </p>
+        </div>
+        <div class="sql">
+            <h4>SQL</h4>
+            <label for="sql"></label>
+            <progress id="sql" value="100" max="100">100</progress>
+            <p>A strong foundation in accessing targeted information, exectuing queries, and crafting schemas.</p>
+        </div>
+        <div class="htmlcss">
+            <h4>HTML &amp; CSS</h4>
+            <label for="markdown"></label>
+            <progress id="markdown" value="100" max="100"></progress>
+            <p>A strong foundation in creating and maintaining web development and features. Creating a stylish design attractive to users.</p>
+        </div>
+    </div>
 </body>
 </html>

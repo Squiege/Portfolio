@@ -1,0 +1,69 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: cornsilk;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_buttons {
+    width: 175px;
+    height: 40px;
+    box-shadow: 2px 2px 5px black;
+    background-color: rgb(194, 176, 154);
+}
+
+.nav_buttons:hover {
+    background-color: rgb(138, 125, 110);
+}
+
+.nav_buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+.biography {
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.education {
+    margin-top: 20px;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.career_goals {
+    margin-top: 20px;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.personal_interests {
+    margin-top: 10px;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.biography:hover, .career_goals:hover, .personal_interests:hover, .education:hover {
+    background-color: rgba(0, 0, 0, 0.315);
+}

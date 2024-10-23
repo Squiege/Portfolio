@@ -1,0 +1,49 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: cornsilk;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_buttons {
+    width: 175px;
+    height: 40px;
+    box-shadow: 2px 2px 5px black;
+    background-color: rgb(194, 176, 154);
+}
+
+.nav_buttons:hover {
+    background-color: rgb(138, 125, 110);
+}
+
+.nav_buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+.python, .sql, .htmlcss {
+    border: 5px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+.python:hover, .sql:hover, .htmlcss:hover {
+    background-color: rgba(0, 0, 0, 0.192);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+}
